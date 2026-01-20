@@ -33,70 +33,6 @@
     },
     {
         "index": 5,
-        "resourceId": "",
-        "className": "WebView",
-        "text": "android.webkit.WebView",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 6,
-        "resourceId": "",
-        "className": "WebView",
-        "text": "android.webkit.WebView",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 7,
-        "resourceId": "",
-        "className": "View",
-        "text": "android.view.View",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 8,
-        "resourceId": "liftoff-snippet",
-        "className": "View",
-        "text": "liftoff-snippet",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 9,
-        "resourceId": "liftoff-layout",
-        "className": "View",
-        "text": "liftoff-layout",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 10,
-        "resourceId": "",
-        "className": "View",
-        "text": "android.view.View",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 11,
-        "resourceId": "",
-        "className": "Image",
-        "text": "125_edd6489204af71bf4f19",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 12,
-        "resourceId": "liftoff-click",
-        "className": "TextView",
-        "text": "liftoff-click",
-        "bounds": "120,225,960,356",
-        "children": []
-    },
-    {
-        "index": 13,
         "resourceId": "com.camerasideas.instashot:id/middle_layout",
         "className": "FrameLayout",
         "text": "com.camerasideas.instashot:id/middle_layout",
@@ -104,23 +40,23 @@
         "children": []
     },
     {
-        "index": 14,
+        "index": 6,
         "resourceId": "com.camerasideas.instashot:id/video_view",
         "className": "FrameLayout",
         "text": "com.camerasideas.instashot:id/video_view",
-        "bounds": "0,357,1080,1797",
+        "bounds": "0,537,1080,1617",
         "children": []
     },
     {
-        "index": 15,
+        "index": 7,
         "resourceId": "com.camerasideas.instashot:id/item_view",
         "className": "View",
         "text": "com.camerasideas.instashot:id/item_view",
-        "bounds": "0,357,1080,1797",
+        "bounds": "0,537,1080,1617",
         "children": []
     },
     {
-        "index": 16,
+        "index": 8,
         "resourceId": "com.camerasideas.instashot:id/ivOpBack",
         "className": "ImageView",
         "text": "com.camerasideas.instashot:id/ivOpBack",
@@ -128,7 +64,7 @@
         "children": []
     },
     {
-        "index": 17,
+        "index": 9,
         "resourceId": "com.camerasideas.instashot:id/ivOpForward",
         "className": "ImageView",
         "text": "com.camerasideas.instashot:id/ivOpForward",
@@ -136,7 +72,7 @@
         "children": []
     },
     {
-        "index": 18,
+        "index": 10,
         "resourceId": "com.camerasideas.instashot:id/btn_ctrl",
         "className": "ImageView",
         "text": "com.camerasideas.instashot:id/btn_ctrl",
@@ -144,7 +80,7 @@
         "children": []
     },
     {
-        "index": 19,
+        "index": 11,
         "resourceId": "com.camerasideas.instashot:id/btn_keyframe",
         "className": "ImageView",
         "text": "com.camerasideas.instashot:id/btn_keyframe",
@@ -152,7 +88,7 @@
         "children": []
     },
     {
-        "index": 20,
+        "index": 12,
         "resourceId": "com.camerasideas.instashot:id/btn_preview",
         "className": "ImageView",
         "text": "com.camerasideas.instashot:id/btn_preview",
@@ -160,7 +96,7 @@
         "children": []
     },
     {
-        "index": 21,
+        "index": 13,
         "resourceId": "com.camerasideas.instashot:id/hs_video_toolbar",
         "className": "HorizontalScrollView",
         "text": "com.camerasideas.instashot:id/hs_video_toolbar",
@@ -168,7 +104,7 @@
         "children": []
     },
     {
-        "index": 22,
+        "index": 14,
         "resourceId": "com.camerasideas.instashot:id/btn_canvas",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_canvas",
@@ -176,7 +112,7 @@
         "children": []
     },
     {
-        "index": 23,
+        "index": 15,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "Canvas",
@@ -184,7 +120,7 @@
         "children": []
     },
     {
-        "index": 24,
+        "index": 16,
         "resourceId": "com.camerasideas.instashot:id/btn_music",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_music",
@@ -192,7 +128,7 @@
         "children": []
     },
     {
-        "index": 25,
+        "index": 17,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "Audio",
@@ -200,7 +136,7 @@
         "children": []
     },
     {
-        "index": 26,
+        "index": 18,
         "resourceId": "com.camerasideas.instashot:id/btn_sticker",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_sticker",
@@ -208,7 +144,7 @@
         "children": []
     },
     {
-        "index": 27,
+        "index": 19,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "Sticker",
@@ -216,7 +152,7 @@
         "children": []
     },
     {
-        "index": 28,
+        "index": 20,
         "resourceId": "com.camerasideas.instashot:id/btn_text",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_text",
@@ -224,7 +160,7 @@
         "children": []
     },
     {
-        "index": 29,
+        "index": 21,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "Text",
@@ -232,7 +168,7 @@
         "children": []
     },
     {
-        "index": 30,
+        "index": 22,
         "resourceId": "com.camerasideas.instashot:id/btn_effect",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_effect",
@@ -240,7 +176,7 @@
         "children": []
     },
     {
-        "index": 31,
+        "index": 23,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "Effect",
@@ -248,7 +184,7 @@
         "children": []
     },
     {
-        "index": 32,
+        "index": 24,
         "resourceId": "com.camerasideas.instashot:id/btn_filter",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_filter",
@@ -256,7 +192,7 @@
         "children": []
     },
     {
-        "index": 33,
+        "index": 25,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "Filter",
@@ -264,7 +200,7 @@
         "children": []
     },
     {
-        "index": 34,
+        "index": 26,
         "resourceId": "com.camerasideas.instashot:id/btn_pip",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/btn_pip",
@@ -272,7 +208,7 @@
         "children": []
     },
     {
-        "index": 35,
+        "index": 27,
         "resourceId": "com.camerasideas.instashot:id/title",
         "className": "TextView",
         "text": "PIP",
@@ -280,7 +216,7 @@
         "children": []
     },
     {
-        "index": 36,
+        "index": 28,
         "resourceId": "com.camerasideas.instashot:id/timeline_seekBar",
         "className": "RecyclerView",
         "text": "com.camerasideas.instashot:id/timeline_seekBar",
@@ -288,7 +224,7 @@
         "children": []
     },
     {
-        "index": 37,
+        "index": 29,
         "resourceId": "com.camerasideas.instashot:id/layout",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/layout",
@@ -296,7 +232,7 @@
         "children": []
     },
     {
-        "index": 38,
+        "index": 30,
         "resourceId": "com.camerasideas.instashot:id/layout",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/layout",
@@ -304,7 +240,7 @@
         "children": []
     },
     {
-        "index": 39,
+        "index": 31,
         "resourceId": "com.camerasideas.instashot:id/layout",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/layout",
@@ -312,7 +248,7 @@
         "children": []
     },
     {
-        "index": 40,
+        "index": 32,
         "resourceId": "com.camerasideas.instashot:id/layout",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/layout",
@@ -320,7 +256,7 @@
         "children": []
     },
     {
-        "index": 41,
+        "index": 33,
         "resourceId": "com.camerasideas.instashot:id/layout",
         "className": "ViewGroup",
         "text": "com.camerasideas.instashot:id/layout",
@@ -328,7 +264,15 @@
         "children": []
     },
     {
-        "index": 42,
+        "index": 34,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Select one track to edit.",
+        "bounds": "400,2240,680,2276",
+        "children": []
+    },
+    {
+        "index": 35,
         "resourceId": "com.camerasideas.instashot:id/btn_fam",
         "className": "ImageView",
         "text": "com.camerasideas.instashot:id/btn_fam",
@@ -336,7 +280,7 @@
         "children": []
     },
     {
-        "index": 43,
+        "index": 36,
         "resourceId": "com.camerasideas.instashot:id/current_position",
         "className": "TextView",
         "text": "0:00.0",
@@ -344,7 +288,7 @@
         "children": []
     },
     {
-        "index": 44,
+        "index": 37,
         "resourceId": "com.camerasideas.instashot:id/total_clips_duration",
         "className": "TextView",
         "text": "0:20.0",
