@@ -5,46 +5,36 @@
         "Tremble": "Basic",
         "Thrill": "Basic",
         "Roll": "Basic",
-
         "Glitch": "Glitch",
         "Noise": "Glitch",
         "RGB": "Glitch",
-
         "Strobe": "Vibrate",
         "Flash": "Vibrate",
         "Flow": "Vibrate",
         "Flicker": "Vibrate",
         "Flip": "Vibrate",
         "Leap": "Vibrate",
-
         "Node": "Shake",
         "Flutter": "Shake",
         "Bass": "Shake",
         "Shake": "Shake",
         "Cam Shake": "Shake",
-
         "White": "Fade",
         "Black": "Fade",
         "Mosiac": "Fade",
-
         "Focus": "Film",
         "Zoom": "Film",
         "Darken": "Film",
-
         "REC": "Retro",
         "VHS": "Retro",
-
         "Circle": "Blur",
         "Diamond": "Blur",
-        
         "Date": "Analog",
         "Shorts": "Analog",
         "Split": "Analog",
-
         "Two": "Split",
         "Four": "Split",
         "Nine": "Split",
-
         "Shatter": "Glass",
         "Shard": "Glass"
     }
