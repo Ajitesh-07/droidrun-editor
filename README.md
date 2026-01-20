@@ -60,8 +60,14 @@ uv pip install https://github.com/droidrun/droidrun.git
 
 ## 🕹️ Usage
 
-0. **Set the enviornment variables**
+1. **Set the enviornment variables**
    * You have to make .env with GEMINI_API_KEY="" your key
+
+2. **Start Redis**
+   * It uses Redis to store its internal mappings, make sure to start it on port 6379
+     ```bash
+     docker run -d --name redis-server -p 6379:6379 redis
+     ```
 
 2.  **Launch the Dashboard**
     ```bash
@@ -81,5 +87,6 @@ uv pip install https://github.com/droidrun/droidrun.git
     * It will select your images.
     * It will apply durations, effects, and transitions autonomously.
 ---
+
 
 
