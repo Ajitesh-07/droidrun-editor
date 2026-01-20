@@ -5,16 +5,13 @@ import os
 import shutil
 import threading
 import time
-from PIL import Image  # Requires: pip install Pillow
+from PIL import Image
 from director import VideoDirector
 from agents_functions import select_images, edit_image
 import asyncio
 
-# --- Configuration ---
 REMOTE_ALBUM_PATH = "/sdcard/Pictures/droidrun"
-LOCAL_SYNC_DIR = "images"  # Folder where we rename copies to image1.png, etc.
-
-# --- Backend: ADB Operations --
+LOCAL_SYNC_DIR = "images"
 
 def format_plan_to_text(plan_json):
     """Converts the Director's JSON into a readable script for the GUI."""
@@ -22,19 +19,16 @@ def format_plan_to_text(plan_json):
     
     output = []
     
-    # 1. Thought Process
     thoughts = plan_json.get("thought_process", "No thoughts provided.")
     output.append(f"The Plan:\n{thoughts}\n")
     output.append("-" * 40 + "\n")
     output.append("EXECUTION STEPS:\n")
     
-    # 2. Steps
     steps = plan_json.get("plan", [])
     for i, step in enumerate(steps, 1):
         tool = step.get("tool")
         args = step.get("args", {})
         
-        # Format specific tools into human-readable text
         if tool == "change_duration":
             line = f"{i}. Set Clip {args.get('image_idx')} duration to {args.get('duration')}s"
         elif tool == "apply_effect":
@@ -84,20 +78,12 @@ def check_device_connection():
     return True, f"Connected: {devices[0].split()[0]}"
 
 def process_files(local_files, status_callback):
-    """
-    1. Cleans Phone Folder
-    2. Pushes New Files
-    3. Cleans Local 'images/' Folder
-    4. Copies & Renames files locally to image1.png, image2.png...
-    """
     total = len(local_files)
-    
-    # --- STEP 1: PREPARE PHONE ---
+
     status_callback("Cleaning phone gallery...", 0)
     run_adb_command(["shell", "rm", "-rf", REMOTE_ALBUM_PATH])
     run_adb_command(["shell", "mkdir", "-p", REMOTE_ALBUM_PATH])
 
-    # --- STEP 2: PREPARE LOCAL FOLDER ---
     status_callback("Preparing local sync folder...", 10)
     if os.path.exists(LOCAL_SYNC_DIR):
         shutil.rmtree(LOCAL_SYNC_DIR)
@@ -105,9 +91,7 @@ def process_files(local_files, status_callback):
 
     num_files = len(local_files)
 
-    # --- STEP 3: TRANSFER & SYNC ---
     for i, file_path in enumerate(local_files):
-        # A. Push to Phone
         filename = os.path.basename(file_path)
         remote_path = os.path.join(REMOTE_ALBUM_PATH, filename).replace("\\", "/")
         
@@ -116,7 +100,7 @@ def process_files(local_files, status_callback):
         
         success, err = run_adb_command(["push", file_path, remote_path])
 
-        timestamp = f"20250101.1200{i:02d}" # 12:00:00, 12:00:01, etc.
+        timestamp = f"20250101.1200{i:02d}" 
         run_adb_command(["shell", "touch", "-t", timestamp, remote_path])
         if not success:
             status_callback(f"Upload Failed: {err}", 0, is_error=True)
@@ -131,7 +115,6 @@ def process_files(local_files, status_callback):
         except Exception as e:
             print(f"Warning: Local conversion failed: {e}")
 
-        # C. Broadcast to Android Gallery
         run_adb_command([
             "shell", "am", "broadcast", 
             "-a", "android.intent.action.MEDIA_SCANNER_SCAN_FILE", 
@@ -140,14 +123,13 @@ def process_files(local_files, status_callback):
 
     status_callback("✅ Ready! Files synced to phone & local folder.", 100, is_success=True)
 
-# --- Frontend: Modern GUI ---
 STAGES = ["1.Planning", "2.Setup", "3.Editing"]
 
 class DirectorApp:
     def __init__(self, root):
         self.root = root
         self.root.title("DroidRun Director Studio")
-        self.root.geometry("700x750") # Taller window for the plan view
+        self.root.geometry("700x750")
         
         self.selected_files = []
         self.is_upload_complete = False
@@ -158,13 +140,11 @@ class DirectorApp:
         style.configure("Stage.TLabel", font=("Segoe UI", 9), foreground="#888")
         style.configure("ActiveStage.TLabel", font=("Segoe UI", 10, "bold"), foreground="#4CAF50")
 
-        # --- HEADER ---
         self.conn_frame = tk.Frame(root, bg="#f0f0f0", pady=5)
         self.conn_frame.pack(fill=tk.X)
         self.lbl_conn = tk.Label(self.conn_frame, text="Checking ADB...", bg="#f0f0f0", fg="grey")
         self.lbl_conn.pack()
 
-        # --- STEP 1: INGEST ---
         self.frame_ingest = ttk.LabelFrame(root, text="Step 1: Ingest Footage", padding=10)
         self.frame_ingest.pack(fill=tk.X, padx=10, pady=5)
 
@@ -174,7 +154,6 @@ class DirectorApp:
         self.btn_upload = ttk.Button(self.frame_ingest, text="⬆️ Upload & Sync", command=self.start_upload_thread, state=tk.DISABLED)
         self.btn_upload.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=5)
 
-        # --- STEP 2: DIRECT ---
         self.frame_direct = ttk.LabelFrame(root, text="Step 2: Direct AI", padding=10)
         self.frame_direct.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
@@ -185,11 +164,9 @@ class DirectorApp:
         self.btn_run = ttk.Button(self.frame_direct, text="🎬 MAKE EDIT", command=self.start_agent_thread, state=tk.DISABLED)
         self.btn_run.pack(fill=tk.X, pady=5)
 
-        # --- LIVE DASHBOARD (NEW) ---
         self.frame_dash = ttk.LabelFrame(root, text="Live Agent Status", padding=10)
         self.frame_dash.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
 
-        # A. Stage Tracker
         self.stage_frame = ttk.Frame(self.frame_dash)
         self.stage_frame.pack(fill=tk.X, pady=5)
         self.stage_labels = []
@@ -199,26 +176,19 @@ class DirectorApp:
             lbl.pack(side=tk.LEFT, expand=True)
             self.stage_labels.append(lbl)
 
-        # B. Plan Viewer
         ttk.Label(self.frame_dash, text="Current Plan & Logs:").pack(anchor="w")
         self.txt_plan = tk.Text(self.frame_dash, height=15, font=("Consolas", 9), bg="#1e1e1e", fg="#00ff00")
         self.txt_plan.pack(fill=tk.BOTH, expand=True)
         self.txt_plan.insert("1.0", "Waiting for command...")
 
-        # Start Checks
         self.check_connection_loop()
 
-    # ... (Keep check_connection_loop, select_images, start_upload_thread, on_upload_update same as before) ...
-    # [Rest of code omitted for brevity - copy from previous 'app.py' if needed]
-    # IMPORTANT: Update 'start_agent_thread' to pass the update_dashboard callback
-
     def check_connection_loop(self):
-        # ... (Same as previous code)
         is_connected, msg = check_device_connection()
         if is_connected and not hasattr(self, 'mirror_launched'):
             self.launch_scrcpy()
             self.mirror_launched = True
-        self.lbl_conn.config(text=f"✅ {msg}" if is_connected else f"❌ {msg}", fg="green" if is_connected else "red")
+        self.lbl_conn.config(text=f"{msg}" if is_connected else f" {msg}", fg="green" if is_connected else "red")
         self.btn_select.state(['!disabled'] if is_connected else ['disabled'])
         self.root.after(5000, self.check_connection_loop)
     
@@ -229,17 +199,12 @@ class DirectorApp:
         """
         scrcpy_path = os.path.join("scrcpy", "scrcpy.exe")
         
-        # Check if we have the tool
         if not os.path.exists(scrcpy_path):
-            print("⚠️ scrcpy not found. Skipping mirror.")
-            # Fallback: Maybe they installed it globally?
+            print(" scrcpy not found. Skipping mirror.")
             scrcpy_path = "scrcpy" 
 
         try:
-            print("📱 Launching Screen Mirror...")
-            # --always-on-top: Keeps it visible while you use the GUI
-            # --window-x/y: Positions it (optional, remove if it bugs out)
-            # --max-size: Limits resolution for faster performance (e.g. 1024)
+            print(" Launching Screen Mirror...")
             subprocess.Popen(
                 [scrcpy_path, "--always-on-top", "--window-title=Samsung View", "--max-size=1024"],
                 creationflags=subprocess.CREATE_NO_WINDOW # Hide console on Windows
@@ -312,9 +277,8 @@ def run_agent_workflow(user_prompt, ui_callback):
     ui_callback(action, data)
     """
     try:
-        # --- STAGE 1: PLANNING ---
         ui_callback("stage", 0) # Highlight "Planning"
-        ui_callback("log", f"🤖 Agent started. Analyzing prompt: '{user_prompt}'...")
+        ui_callback("log", f" Agent started. Analyzing prompt: '{user_prompt}'...")
         
         director = VideoDirector()
         files = os.listdir("images")
@@ -324,9 +288,8 @@ def run_agent_workflow(user_prompt, ui_callback):
 
         ui_callback("plan", plan) 
         
-        # --- STAGE 2: SETUP ---
         ui_callback("stage", 1) # Highlight "Setup"
-        ui_callback("log", "📂 Opening InShot and importing media...")
+        ui_callback("log", " Opening InShot and importing media...")
         
         asyncio.run(select_images())
 
@@ -337,7 +300,7 @@ def run_agent_workflow(user_prompt, ui_callback):
         
     except Exception as e:
         print(f"Agent Error: {e}")
-        ui_callback("log", f"❌ ERROR: {e}")
+        ui_callback("log", f" ERROR: {e}")
 
 if __name__ == "__main__":
     root = tk.Tk()

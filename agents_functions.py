@@ -36,15 +36,15 @@ async def select_images_tool(tools: Tools, **kwargs):
             center_x = (bounds[0] + bounds[2]) // 2
             center_y = (bounds[1] + bounds[3]) // 2
             
-            print(f"👇 Tapping Image at ({center_x}, {center_y})")
+            print(f"Tapping Image at ({center_x}, {center_y})")
             InshotTools._adb_tap(center_x, center_y)
             
         except Exception as e:
-            print(f"❌ Failed to tap element: {e}")
+            print(f"Failed to tap element: {e}")
 
     id = await InshotTools._find_node_by_id(tools, "com.camerasideas.instashot:id/applySelectVideo")
     await tools.tap_on_index(id)
-    print("✅ Selection Complete")
+    print("Selection Complete")
 
 def getProfile():
     """Get default agent specific LLM profiles."""
@@ -130,10 +130,9 @@ async def select_images():
     tracer_provider = register(
         project_name="droidrun-video-editor", 
         endpoint="http://127.0.0.1:6006/v1/traces",
-        auto_instrument=True  # Automatically hooks into HTTP/LLM calls
+        auto_instrument=True
     )
     
-    # 1. Setup the config to force the cheaper Flash model
     config = DroidrunConfig(
         agent=getAgentConfig(reasoning=False, vision=True),
         llm_profiles=getProfile(),
@@ -153,7 +152,7 @@ async def select_images():
 
     
 
-import json # Ensure json is imported
+import json
 
 async def edit_image(num_images, plan):
     load_dotenv()
@@ -172,10 +171,8 @@ async def edit_image(num_images, plan):
 
     print(f"🃏 App Cards Enabled: {config.agent.app_cards.enabled}")
     
-    # 1. Convert plan dict to a pretty string for the prompt
     plan_str = json.dumps(plan, indent=4)
 
-    # 2. Inject num_images and plan into the goal
     goal = f"""
         Phase 1: Setup & Physics
         - Call 'calibrate(num_images={num_images})' to map the timeline.
@@ -216,14 +213,12 @@ async def edit_image(num_images, plan):
         }
     }
 
-    # 3. Define your goal
     agent = DroidAgent(
         goal=goal,
         config=config,
         custom_tools=custom_tools
     )
 
-    # 4. Run it
     result = await agent.run()
 
     return result

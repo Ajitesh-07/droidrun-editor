@@ -111,11 +111,7 @@ class VideoDirector:
         self.model = "gemini-2.5-pro"
         
     def generate_plan(self, user_prompt: str, clips_path: list[str]):
-        """
-        Translates user_prompt into a JSON execution plan.
-        """
         num_clips = len(clips_path)
-        # 1. Hydrate the system prompt with current state (num_clips)
         system_instruction = DIRECTOR_SYSTEM_PROMPT.format(num_clips=num_clips)
         
         full_prompt = f"""
@@ -133,12 +129,10 @@ class VideoDirector:
         contents = [full_prompt]
         contents.append("Here is the visual context for the video clips, in order:")
 
-        # Loop to add: "Clip 1" -> [Image Object] -> "Clip 2" -> [Image Object]
         for i, file_obj in enumerate(files):
             contents.append(f"\n--- IMAGE {i+1} ---")
             contents.append(file_obj)
         
-        # 2. Call LLM
         print(f"🎬 Director thinking about: '{user_prompt}'...")
         response = self.client.models.generate_content(model=self.model, 
                                                        contents=contents
@@ -146,16 +140,14 @@ class VideoDirector:
 
         print(response.usage_metadata)
         
-        # 3. Clean & Parse JSON
         try:
-            # Strip markdown code blocks if present
             clean_text = response.text.replace("```json", "").replace("```", "").strip()
             plan_data = json.loads(clean_text)
             with open("plan.json", "w") as f:
                 json.dump(plan_data, f, indent=4)
             return plan_data
         except Exception as e:
-            print(f"❌ Error parsing Director plan: {e}")
+            print(f"Error parsing Director plan: {e}")
             return None
 
 if __name__ == "__main__":
