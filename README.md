@@ -49,7 +49,7 @@ The system operates in three distinct phases:
 ### 1. Clone & Sync
 ```bash
 git clone https://github.com/Ajitesh-07/droidrun-editor.git
-cd hackathon
+cd droidrun_editor
 
 # Sync dependencies
 uv sync
@@ -78,3 +78,4 @@ uv sync
     * It will select your images.
     * It will apply durations, effects, and transitions autonomously.
 ---
+
