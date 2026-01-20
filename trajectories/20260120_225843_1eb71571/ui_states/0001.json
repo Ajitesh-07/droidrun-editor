@@ -1,0 +1,210 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.camerasideas.instashot:id/pic_index",
+    "className": "ImageView",
+    "text": "InShot",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "ScrollView",
+    "text": "android.widget.ScrollView",
+    "bounds": "0,0,1080,2361",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.camerasideas.instashot:id/btn_app_pro",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_app_pro",
+    "bounds": "754,131,880,257",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.camerasideas.instashot:id/btn_menu",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_menu",
+    "bounds": "901,131,1027,257",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.camerasideas.instashot:id/create_new_text",
+    "className": "TextView",
+    "text": "CREATE NEW",
+    "bounds": "95,1210,332,1263",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.camerasideas.instashot:id/btn_select_video",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_select_video",
+    "bounds": "128,1377,349,1598",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.camerasideas.instashot:id/video_draft_mark",
+    "className": "ImageButton",
+    "text": "com.camerasideas.instashot:id/video_draft_mark",
+    "bounds": "286,1378,349,1441",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.camerasideas.instashot:id/btn_select_photo",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_select_photo",
+    "bounds": "430,1377,651,1598",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.camerasideas.instashot:id/image_draft_mark",
+    "className": "ImageButton",
+    "text": "com.camerasideas.instashot:id/image_draft_mark",
+    "bounds": "588,1378,651,1441",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "com.camerasideas.instashot:id/btn_select_collage",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_select_collage",
+    "bounds": "731,1377,952,1598",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "com.camerasideas.instashot:id/video_text",
+    "className": "TextView",
+    "text": "Video",
+    "bounds": "188,1624,288,1677",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "com.camerasideas.instashot:id/photo_text",
+    "className": "TextView",
+    "text": "Photo",
+    "bounds": "488,1624,592,1677",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "com.camerasideas.instashot:id/collage_text",
+    "className": "TextView",
+    "text": "Collage",
+    "bounds": "776,1624,907,1677",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "com.camerasideas.instashot:id/material_text",
+    "className": "TextView",
+    "text": "WHAT'S NEW",
+    "bounds": "95,1827,328,1880",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "com.camerasideas.instashot:id/see_all",
+    "className": "TextView",
+    "text": "ALL",
+    "bounds": "878,1814,1017,1893",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.camerasideas.instashot:id/poster_rv",
+    "className": "RecyclerView",
+    "text": "com.camerasideas.instashot:id/poster_rv",
+    "bounds": "0,1893,1080,2295",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.camerasideas.instashot:id/card",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/card",
+    "bounds": "64,1925,368,2264",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "com.camerasideas.instashot:id/image",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/image",
+    "bounds": "64,1925,368,2264",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "KAOMOJI",
+    "bounds": "148,2193,284,2232",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "com.camerasideas.instashot:id/card",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/card",
+    "bounds": "390,1925,694,2264",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "com.camerasideas.instashot:id/image",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/image",
+    "bounds": "390,1925,694,2264",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "LOVE YOU",
+    "bounds": "470,2193,614,2232",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "com.camerasideas.instashot:id/card",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/card",
+    "bounds": "716,1925,1020,2264",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "com.camerasideas.instashot:id/image",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/image",
+    "bounds": "716,1925,1020,2264",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "NEW & FEATURED",
+    "bounds": "745,2193,990,2232",
+    "children": []
+  }
+]

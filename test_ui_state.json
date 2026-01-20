@@ -1,0 +1,354 @@
+[
+    {
+        "index": 1,
+        "resourceId": "",
+        "className": "FrameLayout",
+        "text": "android.widget.FrameLayout",
+        "bounds": "0,0,1080,2400",
+        "children": []
+    },
+    {
+        "index": 2,
+        "resourceId": "com.camerasideas.instashot:id/btn_back",
+        "className": "ImageButton",
+        "text": "com.camerasideas.instashot:id/btn_back",
+        "bounds": "0,78,147,209",
+        "children": []
+    },
+    {
+        "index": 3,
+        "resourceId": "com.camerasideas.instashot:id/btn_help",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/btn_help",
+        "bounds": "147,78,278,209",
+        "children": []
+    },
+    {
+        "index": 4,
+        "resourceId": "com.camerasideas.instashot:id/text_save",
+        "className": "TextView",
+        "text": "Export",
+        "bounds": "866,78,1080,209",
+        "children": []
+    },
+    {
+        "index": 5,
+        "resourceId": "",
+        "className": "WebView",
+        "text": "android.webkit.WebView",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 6,
+        "resourceId": "",
+        "className": "WebView",
+        "text": "android.webkit.WebView",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 7,
+        "resourceId": "",
+        "className": "View",
+        "text": "android.view.View",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 8,
+        "resourceId": "liftoff-snippet",
+        "className": "View",
+        "text": "liftoff-snippet",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 9,
+        "resourceId": "liftoff-layout",
+        "className": "View",
+        "text": "liftoff-layout",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 10,
+        "resourceId": "",
+        "className": "View",
+        "text": "android.view.View",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 11,
+        "resourceId": "",
+        "className": "Image",
+        "text": "125_edd6489204af71bf4f19",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 12,
+        "resourceId": "liftoff-click",
+        "className": "TextView",
+        "text": "liftoff-click",
+        "bounds": "120,225,960,356",
+        "children": []
+    },
+    {
+        "index": 13,
+        "resourceId": "com.camerasideas.instashot:id/middle_layout",
+        "className": "FrameLayout",
+        "text": "com.camerasideas.instashot:id/middle_layout",
+        "bounds": "0,356,1080,1799",
+        "children": []
+    },
+    {
+        "index": 14,
+        "resourceId": "com.camerasideas.instashot:id/video_view",
+        "className": "FrameLayout",
+        "text": "com.camerasideas.instashot:id/video_view",
+        "bounds": "0,357,1080,1797",
+        "children": []
+    },
+    {
+        "index": 15,
+        "resourceId": "com.camerasideas.instashot:id/item_view",
+        "className": "View",
+        "text": "com.camerasideas.instashot:id/item_view",
+        "bounds": "0,357,1080,1797",
+        "children": []
+    },
+    {
+        "index": 16,
+        "resourceId": "com.camerasideas.instashot:id/ivOpBack",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/ivOpBack",
+        "bounds": "26,1799,89,1930",
+        "children": []
+    },
+    {
+        "index": 17,
+        "resourceId": "com.camerasideas.instashot:id/ivOpForward",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/ivOpForward",
+        "bounds": "121,1799,184,1930",
+        "children": []
+    },
+    {
+        "index": 18,
+        "resourceId": "com.camerasideas.instashot:id/btn_ctrl",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/btn_ctrl",
+        "bounds": "475,1799,606,1930",
+        "children": []
+    },
+    {
+        "index": 19,
+        "resourceId": "com.camerasideas.instashot:id/btn_keyframe",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/btn_keyframe",
+        "bounds": "893,1799,959,1930",
+        "children": []
+    },
+    {
+        "index": 20,
+        "resourceId": "com.camerasideas.instashot:id/btn_preview",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/btn_preview",
+        "bounds": "991,1799,1054,1930",
+        "children": []
+    },
+    {
+        "index": 21,
+        "resourceId": "com.camerasideas.instashot:id/hs_video_toolbar",
+        "className": "HorizontalScrollView",
+        "text": "com.camerasideas.instashot:id/hs_video_toolbar",
+        "bounds": "0,1930,1080,2098",
+        "children": []
+    },
+    {
+        "index": 22,
+        "resourceId": "com.camerasideas.instashot:id/btn_canvas",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_canvas",
+        "bounds": "0,1930,166,2098",
+        "children": []
+    },
+    {
+        "index": 23,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Canvas",
+        "bounds": "0,2038,166,2075",
+        "children": []
+    },
+    {
+        "index": 24,
+        "resourceId": "com.camerasideas.instashot:id/btn_music",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_music",
+        "bounds": "166,1930,332,2098",
+        "children": []
+    },
+    {
+        "index": 25,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Audio",
+        "bounds": "166,2038,332,2075",
+        "children": []
+    },
+    {
+        "index": 26,
+        "resourceId": "com.camerasideas.instashot:id/btn_sticker",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_sticker",
+        "bounds": "332,1930,498,2098",
+        "children": []
+    },
+    {
+        "index": 27,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Sticker",
+        "bounds": "332,2038,498,2075",
+        "children": []
+    },
+    {
+        "index": 28,
+        "resourceId": "com.camerasideas.instashot:id/btn_text",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_text",
+        "bounds": "498,1930,664,2098",
+        "children": []
+    },
+    {
+        "index": 29,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Text",
+        "bounds": "498,2038,664,2075",
+        "children": []
+    },
+    {
+        "index": 30,
+        "resourceId": "com.camerasideas.instashot:id/btn_effect",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_effect",
+        "bounds": "664,1930,830,2098",
+        "children": []
+    },
+    {
+        "index": 31,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Effect",
+        "bounds": "664,2038,830,2075",
+        "children": []
+    },
+    {
+        "index": 32,
+        "resourceId": "com.camerasideas.instashot:id/btn_filter",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_filter",
+        "bounds": "830,1930,996,2098",
+        "children": []
+    },
+    {
+        "index": 33,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "Filter",
+        "bounds": "830,2038,996,2075",
+        "children": []
+    },
+    {
+        "index": 34,
+        "resourceId": "com.camerasideas.instashot:id/btn_pip",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/btn_pip",
+        "bounds": "996,1930,1080,2098",
+        "children": []
+    },
+    {
+        "index": 35,
+        "resourceId": "com.camerasideas.instashot:id/title",
+        "className": "TextView",
+        "text": "PIP",
+        "bounds": "996,2038,1080,2075",
+        "children": []
+    },
+    {
+        "index": 36,
+        "resourceId": "com.camerasideas.instashot:id/timeline_seekBar",
+        "className": "RecyclerView",
+        "text": "com.camerasideas.instashot:id/timeline_seekBar",
+        "bounds": "0,2098,1080,2361",
+        "children": []
+    },
+    {
+        "index": 37,
+        "resourceId": "com.camerasideas.instashot:id/layout",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/layout",
+        "bounds": "0,2114,540,2229",
+        "children": []
+    },
+    {
+        "index": 38,
+        "resourceId": "com.camerasideas.instashot:id/layout",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/layout",
+        "bounds": "540,2114,708,2229",
+        "children": []
+    },
+    {
+        "index": 39,
+        "resourceId": "com.camerasideas.instashot:id/layout",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/layout",
+        "bounds": "708,2114,876,2229",
+        "children": []
+    },
+    {
+        "index": 40,
+        "resourceId": "com.camerasideas.instashot:id/layout",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/layout",
+        "bounds": "876,2114,930,2229",
+        "children": []
+    },
+    {
+        "index": 41,
+        "resourceId": "com.camerasideas.instashot:id/layout",
+        "className": "ViewGroup",
+        "text": "com.camerasideas.instashot:id/layout",
+        "bounds": "930,2114,1080,2229",
+        "children": []
+    },
+    {
+        "index": 42,
+        "resourceId": "com.camerasideas.instashot:id/btn_fam",
+        "className": "ImageView",
+        "text": "com.camerasideas.instashot:id/btn_fam",
+        "bounds": "45,2119,150,2224",
+        "children": []
+    },
+    {
+        "index": 43,
+        "resourceId": "com.camerasideas.instashot:id/current_position",
+        "className": "TextView",
+        "text": "0:00.0",
+        "bounds": "409,2329,672,2361",
+        "children": []
+    },
+    {
+        "index": 44,
+        "resourceId": "com.camerasideas.instashot:id/total_clips_duration",
+        "className": "TextView",
+        "text": "0:20.0",
+        "bounds": "984,2329,1054,2361",
+        "children": []
+    }
+]

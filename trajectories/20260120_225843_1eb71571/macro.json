@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "description": "\n            Open inshot app and select all the images from the droidrun_images and go the video editor screen and your job is done.\n            Note this instruction while finding the droidrun_images folder if u dont see it directly \n            - **CRITICAL: Finding the Folder**\n            - The folder list is sensitive.\n            - To scroll down, use **TINY SWIPES**.\n            - **Instruction:** Swipe from (540, 1500) to (540, 1100). NEVER swipe more than 400 pixels at a time.\n            - If you don't see it, swipe again (small swipe).\n            - Note for selecting images STRICTLY CALL select images tool call\n            \n            **CRITICAL: DO NOT CLICK ON THE BLANK IMAGE AT THE VERY START OF THE IMAGE SELECTION SCREEN IGNORE IT AND SELECT EVERYTHING*\n            **CRITICAL: FOR SELECTING IMAGES STRICTLY USE THE select images tool call\n        ",
+  "timestamp": "20260120_230504",
+  "total_actions": 6,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.camerasideas.instashot",
+      "package": "com.camerasideas.instashot",
+      "activity": ".MainActivity"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 7: 'com.camerasideas.instashot:id/btn_select_video' (ImageView) at coordinates (238, 1487)",
+      "x": 238,
+      "y": 1487,
+      "element_index": 7,
+      "element_text": "com.camerasideas.instashot:id/btn_select_video",
+      "element_bounds": "128,1377,349,1598"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 7: 'NEW' (TextView) at coordinates (346, 1377)",
+      "x": 346,
+      "y": 1377,
+      "element_index": 7,
+      "element_text": "NEW",
+      "element_bounds": "301,1348,392,1406"
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 55: 'Recent' (TextView) at coordinates (223, 2282)",
+      "x": 223,
+      "y": 2282,
+      "element_index": 55,
+      "element_text": "Recent",
+      "element_bounds": "147,2203,299,2361"
+    },
+    {
+      "type": "SwipeActionEvent",
+      "action_type": "swipe",
+      "description": "Swipe from (540, 1500) to (540, 1100) in 1000 milliseconds",
+      "start_x": 540,
+      "start_y": 1500,
+      "end_x": 540,
+      "end_y": 1100,
+      "duration_ms": 1000
+    },
+    {
+      "type": "TapActionEvent",
+      "action_type": "tap",
+      "description": "Tap element at index 21: 'droidrun_images' (TextView) at coordinates (346, 1971)",
+      "x": 346,
+      "y": 1971,
+      "element_index": 21,
+      "element_text": "droidrun_images",
+      "element_bounds": "190,1943,503,2000"
+    }
+  ]
+}
