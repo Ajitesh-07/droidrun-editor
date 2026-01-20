@@ -53,6 +53,9 @@ cd droidrun_editor
 
 # Sync dependencies
 uv sync
+# Go to the venv and install droidrun
+.\.venv\Scripts\activate
+uv pip install https://github.com/droidrun/droidrun.git
 ```
 
 ## 🕹️ Usage
@@ -78,4 +81,5 @@ uv sync
     * It will select your images.
     * It will apply durations, effects, and transitions autonomously.
 ---
+
 
