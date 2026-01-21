@@ -1,0 +1,15 @@
+{
+    "none": 2,
+    "mix": 3,
+    "fade": 4,
+    "blur": 5,
+    "circlefade": 6,
+    "wipe right": 7,
+    "wipe left": 8,
+    "wipe down": 9,
+    "wipe up": 10,
+    "slide right": 11,
+    "slide left": 12,
+    "slide down": 13,
+    "slide up": 14
+}
