@@ -1,0 +1,74 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.sec.android.app.launcher:id/workspace",
+    "className": "PagedView",
+    "text": "com.sec.android.app.launcher:id/workspace",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Page 1 of 3, Default page",
+    "bounds": "459,1986,513,2036",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Page 2 of 3",
+    "bounds": "513,1986,567,2036",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "Page 3 of 3, Current page is last page.",
+    "bounds": "567,1986,621,2036",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.sec.android.app.launcher:id/hotseat_icon",
+    "className": "TextView",
+    "text": "Phone",
+    "bounds": "38,2059,284,2330",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.sec.android.app.launcher:id/hotseat_icon",
+    "className": "TextView",
+    "text": "Messages",
+    "bounds": "290,2059,536,2330",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "com.sec.android.app.launcher:id/hotseat_icon",
+    "className": "TextView",
+    "text": "Internet",
+    "bounds": "542,2059,788,2330",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "com.sec.android.app.launcher:id/hotseat_icon",
+    "className": "TextView",
+    "text": "Camera",
+    "bounds": "794,2059,1040,2330",
+    "children": []
+  }
+]

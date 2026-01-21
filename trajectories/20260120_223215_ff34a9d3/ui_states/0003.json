@@ -1,0 +1,794 @@
+[
+  {
+    "index": 1,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 2,
+    "resourceId": "com.camerasideas.instashot:id/pic_index",
+    "className": "ImageView",
+    "text": "InShot",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 3,
+    "resourceId": "com.camerasideas.instashot:id/video_selection_center_layout",
+    "className": "ViewGroup",
+    "text": "com.camerasideas.instashot:id/video_selection_center_layout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 4,
+    "resourceId": "com.camerasideas.instashot:id/tv_album",
+    "className": "TextView",
+    "text": "ALBUM",
+    "bounds": "0,0,540,209",
+    "children": []
+  },
+  {
+    "index": 5,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "Tap to switch view mode",
+    "bounds": "97,167,503,230",
+    "children": []
+  },
+  {
+    "index": 6,
+    "resourceId": "com.camerasideas.instashot:id/tv_material",
+    "className": "TextView",
+    "text": "MATERIAL",
+    "bounds": "540,0,1080,209",
+    "children": []
+  },
+  {
+    "index": 7,
+    "resourceId": "com.camerasideas.instashot:id/viewPager",
+    "className": "ViewPager",
+    "text": "com.camerasideas.instashot:id/viewPager",
+    "bounds": "0,209,1080,2242",
+    "children": []
+  },
+  {
+    "index": 8,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,209,1080,2242",
+    "children": []
+  },
+  {
+    "index": 9,
+    "resourceId": "",
+    "className": "RelativeLayout",
+    "text": "android.widget.RelativeLayout",
+    "bounds": "0,209,1080,2242",
+    "children": []
+  },
+  {
+    "index": 10,
+    "resourceId": "com.camerasideas.instashot:id/wallTabLayout",
+    "className": "HorizontalScrollView",
+    "text": "com.camerasideas.instashot:id/wallTabLayout",
+    "bounds": "0,209,1080,335",
+    "children": []
+  },
+  {
+    "index": 11,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "VIDEO",
+    "bounds": "637,209,785,335",
+    "children": []
+  },
+  {
+    "index": 12,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "VIDEO",
+    "bounds": "663,249,759,295",
+    "children": []
+  },
+  {
+    "index": 13,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "PHOTO",
+    "bounds": "785,209,949,335",
+    "children": []
+  },
+  {
+    "index": 14,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "PHOTO",
+    "bounds": "811,249,923,295",
+    "children": []
+  },
+  {
+    "index": 15,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "ALL",
+    "bounds": "949,209,1080,335",
+    "children": []
+  },
+  {
+    "index": 16,
+    "resourceId": "",
+    "className": "TextView",
+    "text": "ALL",
+    "bounds": "985,249,1044,295",
+    "children": []
+  },
+  {
+    "index": 17,
+    "resourceId": "com.camerasideas.instashot:id/iv_show_state",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/iv_show_state",
+    "bounds": "0,209,116,335",
+    "children": []
+  },
+  {
+    "index": 18,
+    "resourceId": "com.camerasideas.instashot:id/wallViewPager",
+    "className": "ViewPager",
+    "text": "com.camerasideas.instashot:id/wallViewPager",
+    "bounds": "0,335,1080,2242",
+    "children": []
+  },
+  {
+    "index": 19,
+    "resourceId": "",
+    "className": "FrameLayout",
+    "text": "android.widget.FrameLayout",
+    "bounds": "0,335,1080,2242",
+    "children": []
+  },
+  {
+    "index": 20,
+    "resourceId": "com.camerasideas.instashot:id/wallRecyclerView",
+    "className": "GridView",
+    "text": "com.camerasideas.instashot:id/wallRecyclerView",
+    "bounds": "0,335,1080,2242",
+    "children": []
+  },
+  {
+    "index": 21,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,335,268,603",
+    "children": []
+  },
+  {
+    "index": 22,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,335,539,603",
+    "children": []
+  },
+  {
+    "index": 23,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,335,810,603",
+    "children": []
+  },
+  {
+    "index": 24,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,335,1080,603",
+    "children": []
+  },
+  {
+    "index": 25,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,605,268,873",
+    "children": []
+  },
+  {
+    "index": 26,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,605,539,873",
+    "children": []
+  },
+  {
+    "index": 27,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,605,810,873",
+    "children": []
+  },
+  {
+    "index": 28,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,605,1080,873",
+    "children": []
+  },
+  {
+    "index": 29,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,875,268,1143",
+    "children": []
+  },
+  {
+    "index": 30,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,875,539,1143",
+    "children": []
+  },
+  {
+    "index": 31,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,875,810,1143",
+    "children": []
+  },
+  {
+    "index": 32,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,875,1080,1143",
+    "children": []
+  },
+  {
+    "index": 33,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1145,268,1413",
+    "children": []
+  },
+  {
+    "index": 34,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,1145,539,1413",
+    "children": []
+  },
+  {
+    "index": 35,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,1145,810,1413",
+    "children": []
+  },
+  {
+    "index": 36,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,1145,1080,1413",
+    "children": []
+  },
+  {
+    "index": 37,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1415,268,1683",
+    "children": []
+  },
+  {
+    "index": 38,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,1415,539,1683",
+    "children": []
+  },
+  {
+    "index": 39,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,1415,810,1683",
+    "children": []
+  },
+  {
+    "index": 40,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,1415,1080,1683",
+    "children": []
+  },
+  {
+    "index": 41,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1685,268,1953",
+    "children": []
+  },
+  {
+    "index": 42,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,1685,539,1953",
+    "children": []
+  },
+  {
+    "index": 43,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,1685,810,1953",
+    "children": []
+  },
+  {
+    "index": 44,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,1685,1080,1953",
+    "children": []
+  },
+  {
+    "index": 45,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,1955,268,2223",
+    "children": []
+  },
+  {
+    "index": 46,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,1955,539,2223",
+    "children": []
+  },
+  {
+    "index": 47,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,1955,810,2223",
+    "children": []
+  },
+  {
+    "index": 48,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,1955,1080,2223",
+    "children": []
+  },
+  {
+    "index": 49,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "0,2225,268,2242",
+    "children": []
+  },
+  {
+    "index": 50,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "271,2225,539,2242",
+    "children": []
+  },
+  {
+    "index": 51,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "542,2225,810,2242",
+    "children": []
+  },
+  {
+    "index": 52,
+    "resourceId": "",
+    "className": "ViewGroup",
+    "text": "android.view.ViewGroup",
+    "bounds": "813,2225,1080,2242",
+    "children": []
+  },
+  {
+    "index": 53,
+    "resourceId": "com.camerasideas.instashot:id/applySelectVideo",
+    "className": "ImageButton",
+    "text": "Apply to all",
+    "bounds": "907,2030,1054,2177",
+    "children": []
+  },
+  {
+    "index": 54,
+    "resourceId": "com.camerasideas.instashot:id/wallBackImageView",
+    "className": "ImageView",
+    "text": "Edit",
+    "bounds": "0,2203,147,2361",
+    "children": []
+  },
+  {
+    "index": 55,
+    "resourceId": "com.camerasideas.instashot:id/selectDirectoryLayout",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/selectDirectoryLayout",
+    "bounds": "147,2203,964,2361",
+    "children": []
+  },
+  {
+    "index": 56,
+    "resourceId": "com.camerasideas.instashot:id/directoryTextView",
+    "className": "TextView",
+    "text": "Recent",
+    "bounds": "147,2203,299,2361",
+    "children": []
+  },
+  {
+    "index": 57,
+    "resourceId": "com.camerasideas.instashot:id/moreWallImageView",
+    "className": "ImageView",
+    "text": "Edit",
+    "bounds": "964,2203,1080,2361",
+    "children": []
+  },
+  {
+    "index": 58,
+    "resourceId": "com.camerasideas.instashot:id/video_draft_layout",
+    "className": "RelativeLayout",
+    "text": "com.camerasideas.instashot:id/video_draft_layout",
+    "bounds": "0,0,1080,2400",
+    "children": []
+  },
+  {
+    "index": 59,
+    "resourceId": "com.camerasideas.instashot:id/newestDraftList",
+    "className": "RecyclerView",
+    "text": "com.camerasideas.instashot:id/newestDraftList",
+    "bounds": "231,1288,903,2000",
+    "children": []
+  },
+  {
+    "index": 60,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "231,1288,903,1466",
+    "children": []
+  },
+  {
+    "index": 61,
+    "resourceId": "com.camerasideas.instashot:id/layout",
+    "className": "ViewGroup",
+    "text": "com.camerasideas.instashot:id/layout",
+    "bounds": "238,1298,791,1456",
+    "children": []
+  },
+  {
+    "index": 62,
+    "resourceId": "com.camerasideas.instashot:id/text",
+    "className": "TextView",
+    "text": "NEW",
+    "bounds": "301,1348,392,1406",
+    "children": []
+  },
+  {
+    "index": 63,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "231,1466,903,1644",
+    "children": []
+  },
+  {
+    "index": 64,
+    "resourceId": "com.camerasideas.instashot:id/label",
+    "className": "TextView",
+    "text": "2026-01-20",
+    "bounds": "301,1507,652,1545",
+    "children": []
+  },
+  {
+    "index": 65,
+    "resourceId": "com.camerasideas.instashot:id/text",
+    "className": "TextView",
+    "text": ":05",
+    "bounds": "301,1545,361,1603",
+    "children": []
+  },
+  {
+    "index": 66,
+    "resourceId": "com.camerasideas.instashot:id/more_newest",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/more_newest",
+    "bounds": "798,1526,903,1631",
+    "children": []
+  },
+  {
+    "index": 67,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "231,1644,903,1822",
+    "children": []
+  },
+  {
+    "index": 68,
+    "resourceId": "com.camerasideas.instashot:id/label",
+    "className": "TextView",
+    "text": "2026-01-20",
+    "bounds": "301,1685,652,1723",
+    "children": []
+  },
+  {
+    "index": 69,
+    "resourceId": "com.camerasideas.instashot:id/text",
+    "className": "TextView",
+    "text": ":12",
+    "bounds": "301,1723,361,1781",
+    "children": []
+  },
+  {
+    "index": 70,
+    "resourceId": "com.camerasideas.instashot:id/more_newest",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/more_newest",
+    "bounds": "798,1704,903,1809",
+    "children": []
+  },
+  {
+    "index": 71,
+    "resourceId": "",
+    "className": "LinearLayout",
+    "text": "android.widget.LinearLayout",
+    "bounds": "231,1822,903,2000",
+    "children": []
+  },
+  {
+    "index": 72,
+    "resourceId": "com.camerasideas.instashot:id/label",
+    "className": "TextView",
+    "text": "2026-01-20",
+    "bounds": "301,1863,652,1901",
+    "children": []
+  },
+  {
+    "index": 73,
+    "resourceId": "com.camerasideas.instashot:id/text",
+    "className": "TextView",
+    "text": ":20",
+    "bounds": "301,1901,361,1959",
+    "children": []
+  },
+  {
+    "index": 74,
+    "resourceId": "com.camerasideas.instashot:id/more_newest",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/more_newest",
+    "bounds": "798,1882,903,1987",
+    "children": []
+  },
+  {
+    "index": 75,
+    "resourceId": "com.camerasideas.instashot:id/moreDraftButton",
+    "className": "TextView",
+    "text": "4 DRAFTS",
+    "bounds": "553,2016,798,2084",
+    "children": []
+  },
+  {
+    "index": 76,
+    "resourceId": "",
+    "className": "ScrollView",
+    "text": "android.widget.ScrollView",
+    "bounds": "0,0,1080,2361",
+    "children": []
+  },
+  {
+    "index": 77,
+    "resourceId": "com.camerasideas.instashot:id/btn_app_pro",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_app_pro",
+    "bounds": "754,131,880,257",
+    "children": []
+  },
+  {
+    "index": 78,
+    "resourceId": "com.camerasideas.instashot:id/btn_menu",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_menu",
+    "bounds": "901,131,1027,257",
+    "children": []
+  },
+  {
+    "index": 79,
+    "resourceId": "com.camerasideas.instashot:id/create_new_text",
+    "className": "TextView",
+    "text": "CREATE NEW",
+    "bounds": "95,1210,332,1263",
+    "children": []
+  },
+  {
+    "index": 80,
+    "resourceId": "com.camerasideas.instashot:id/btn_select_video",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_select_video",
+    "bounds": "128,1377,349,1598",
+    "children": []
+  },
+  {
+    "index": 81,
+    "resourceId": "com.camerasideas.instashot:id/video_draft_mark",
+    "className": "ImageButton",
+    "text": "com.camerasideas.instashot:id/video_draft_mark",
+    "bounds": "286,1378,349,1441",
+    "children": []
+  },
+  {
+    "index": 82,
+    "resourceId": "com.camerasideas.instashot:id/btn_select_photo",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_select_photo",
+    "bounds": "430,1377,651,1598",
+    "children": []
+  },
+  {
+    "index": 83,
+    "resourceId": "com.camerasideas.instashot:id/image_draft_mark",
+    "className": "ImageButton",
+    "text": "com.camerasideas.instashot:id/image_draft_mark",
+    "bounds": "588,1378,651,1441",
+    "children": []
+  },
+  {
+    "index": 84,
+    "resourceId": "com.camerasideas.instashot:id/btn_select_collage",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/btn_select_collage",
+    "bounds": "731,1377,952,1598",
+    "children": []
+  },
+  {
+    "index": 85,
+    "resourceId": "com.camerasideas.instashot:id/video_text",
+    "className": "TextView",
+    "text": "Video",
+    "bounds": "188,1624,288,1677",
+    "children": []
+  },
+  {
+    "index": 86,
+    "resourceId": "com.camerasideas.instashot:id/photo_text",
+    "className": "TextView",
+    "text": "Photo",
+    "bounds": "488,1624,592,1677",
+    "children": []
+  },
+  {
+    "index": 87,
+    "resourceId": "com.camerasideas.instashot:id/collage_text",
+    "className": "TextView",
+    "text": "Collage",
+    "bounds": "776,1624,907,1677",
+    "children": []
+  },
+  {
+    "index": 88,
+    "resourceId": "com.camerasideas.instashot:id/material_text",
+    "className": "TextView",
+    "text": "WHAT'S NEW",
+    "bounds": "95,1827,328,1880",
+    "children": []
+  },
+  {
+    "index": 89,
+    "resourceId": "com.camerasideas.instashot:id/see_all",
+    "className": "TextView",
+    "text": "ALL",
+    "bounds": "878,1814,1017,1893",
+    "children": []
+  },
+  {
+    "index": 90,
+    "resourceId": "com.camerasideas.instashot:id/poster_rv",
+    "className": "RecyclerView",
+    "text": "com.camerasideas.instashot:id/poster_rv",
+    "bounds": "0,1893,1080,2295",
+    "children": []
+  },
+  {
+    "index": 91,
+    "resourceId": "com.camerasideas.instashot:id/card",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/card",
+    "bounds": "64,1925,368,2264",
+    "children": []
+  },
+  {
+    "index": 92,
+    "resourceId": "com.camerasideas.instashot:id/image",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/image",
+    "bounds": "64,1925,368,2264",
+    "children": []
+  },
+  {
+    "index": 93,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "KAOMOJI",
+    "bounds": "148,2193,284,2232",
+    "children": []
+  },
+  {
+    "index": 94,
+    "resourceId": "com.camerasideas.instashot:id/card",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/card",
+    "bounds": "390,1925,694,2264",
+    "children": []
+  },
+  {
+    "index": 95,
+    "resourceId": "com.camerasideas.instashot:id/image",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/image",
+    "bounds": "390,1925,694,2264",
+    "children": []
+  },
+  {
+    "index": 96,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "LOVE YOU",
+    "bounds": "470,2193,614,2232",
+    "children": []
+  },
+  {
+    "index": 97,
+    "resourceId": "com.camerasideas.instashot:id/card",
+    "className": "FrameLayout",
+    "text": "com.camerasideas.instashot:id/card",
+    "bounds": "716,1925,1020,2264",
+    "children": []
+  },
+  {
+    "index": 98,
+    "resourceId": "com.camerasideas.instashot:id/image",
+    "className": "ImageView",
+    "text": "com.camerasideas.instashot:id/image",
+    "bounds": "716,1925,1020,2264",
+    "children": []
+  },
+  {
+    "index": 99,
+    "resourceId": "com.camerasideas.instashot:id/title",
+    "className": "TextView",
+    "text": "NEW & FEATURED",
+    "bounds": "745,2193,990,2232",
+    "children": []
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "type": "CodeActInputEvent"
+  },
+  {
+    "type": "CodeActResponseEvent",
+    "thought": "The precondition is not met because the InShot app is not currently open. The current app is \"One UI Home\".\n\nMy next step is to open the InShot app.",
+    "code": "open_app(\"InShot\")",
+    "usage": {
+      "request_tokens": 2244,
+      "response_tokens": 49,
+      "total_tokens": 2388,
+      "requests": 1
+    }
+  },
+  {
+    "type": "CodeActCodeEvent",
+    "code": "open_app(\"InShot\")"
+  },
+  {
+    "type": "CodeActOutputEvent",
+    "output": "```json\n{\n    \"package\": \"com.camerasideas.instashot\"\n}\n```\n"
+  }
+]

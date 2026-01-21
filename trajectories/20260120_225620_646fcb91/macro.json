@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "description": "\n            Open inshot app and select all the images from the droidrun_images and go the video editor screen and your job is done.\n            Note this instruction while finding the droidrun_images folder if u dont see it directly \n            - **CRITICAL: Finding the Folder**\n            - The folder list is sensitive.\n            - To scroll down, use **TINY SWIPES**.\n            - **Instruction:** Swipe from (540, 1500) to (540, 1100). NEVER swipe more than 400 pixels at a time.\n            - If you don't see it, swipe again (small swipe).\n            - Note for selecting images STRICTLY CALL select images tool call\n            \n            **CRITICAL: DO NOT CLICK ON THE BLANK IMAGE AT THE VERY START OF THE IMAGE SELECTION SCREEN IGNORE IT AND SELECT EVERYTHING*\n            **CRITICAL: FOR SELECTING IMAGES STRICTLY USE THE select images tool call\n        ",
+  "timestamp": "20260120_225648",
+  "total_actions": 1,
+  "actions": [
+    {
+      "type": "StartAppEvent",
+      "action_type": "start_app",
+      "description": "Start app com.camerasideas.instashot",
+      "package": "com.camerasideas.instashot",
+      "activity": ".MainActivity"
+    }
+  ]
+}
